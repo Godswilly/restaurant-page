@@ -2,7 +2,7 @@
 
 A simple restaurant page built using Vanilla Javascript to generate its entire content.
 
-![screenshot](../images/restaurant.png)
+![screenshot](screenshot.png)
 
 
 ## Built With
