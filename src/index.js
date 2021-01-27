@@ -16,7 +16,7 @@ show.className = 'show';
 show.id = 'show';
 show.appendChild(home());
 content.appendChild(show);
-
+/* eslint consistent-return: 0 */
 const every = (link) => {
   if (link === 'home') {
     show.className = 'show';
