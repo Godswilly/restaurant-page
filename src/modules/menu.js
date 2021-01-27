@@ -5,7 +5,7 @@ import Plantain from '../images/plantain.jpeg';
 import Catfish from '../images/catfish.jpg';
 
 const content = document.getElementById('content');
-  content.innerHTML = '';
+content.innerHTML = '';
 const menu = () => {
   const menulist = document.createElement('div');
   menulist.classList.add('top');
@@ -36,7 +36,6 @@ const menu = () => {
   menuImages.appendChild(menuImg3);
   menulist.appendChild(menuImages);
   return menulist;
-
 };
 
 export default menu;

@@ -1,6 +1,6 @@
 import '../style.css';
 
-const Nav_bar = () => {
+const Navbar = () => {
   const navbar = document.createElement('nav');
   navbar.className = 'navbar';
   navbar.id = 'navbar';
@@ -29,4 +29,4 @@ const Nav_bar = () => {
 
   return navbar;
 };
-export default Nav_bar;
+export default Navbar;

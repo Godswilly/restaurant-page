@@ -1,5 +1,5 @@
 
-import Nav_bar from './modules/navbar';
+import Navbar from './modules/navbar';
 import contact from './modules/contact';
 import menu from './modules/menu';
 import home from './modules/home';
@@ -7,7 +7,7 @@ import home from './modules/home';
 
 const content = document.getElementById('content');
 content.innerHTML = '';
-const navbar = Nav_bar();
+const navbar = Navbar();
 content.appendChild(navbar);
 const links = document.querySelectorAll('.link');
 
@@ -28,7 +28,7 @@ const every = (link) => {
   }
   if (link === 'contact') {
     show.className = 'show';
-   return contact();
+    return contact();
   }
 };
 links.forEach((li) => {

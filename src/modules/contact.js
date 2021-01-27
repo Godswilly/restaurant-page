@@ -1,7 +1,6 @@
 import '../style.css';
 
 const contact = () => {
-  
   const info = document.createElement('div');
   info.className = 'info';
   info.id = 'info';
