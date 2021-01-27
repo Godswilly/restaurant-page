@@ -21,6 +21,7 @@ body {
   vertical-align: middle;
   margin-top: auto;
 }
+
 .nav_link li {
   font-size: 1.5rem;
   display: inline-block;
@@ -30,13 +31,16 @@ body {
 
 .show {
   padding: 0 5%;
-  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROfCEHaDmiSZ8LTq4vkV3iCPJ87MzHw6PMjQ&usqp=CAU"),
-    no-repeat, center;
+  background:
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcROfCEHaDmiSZ8LTq4vkV3iCPJ87MzHw6PMjQ&usqp=CAU"),
+    no-repeat,
+    center;
   background-size: cover;
   box-sizing: border-box;
   width: 100%;
   height: 100vh;
 }
+
 .showmenu {
   padding: 0 5%;
 }
@@ -47,6 +51,7 @@ body {
   margin-top: 30px;
   z-index: 1000;
 }
+
 .container {
   margin: 0 10px;
   width: 360px;
@@ -59,6 +64,7 @@ body {
   font-size: 3rem;
   width: 100%;
 }
+
 /* home style */
 .title,
 .info {
@@ -70,6 +76,7 @@ body {
   font-size: 34px;
   color: grey;
 }
+
 .info {
   color: grey;
   font-size: 30px;
