@@ -1,9 +1,7 @@
-
 import Navbar from './modules/navbar';
 import contact from './modules/contact';
 import menu from './modules/menu';
 import home from './modules/home';
-
 
 const content = document.getElementById('content');
 content.innerHTML = '';

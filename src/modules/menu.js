@@ -1,4 +1,3 @@
-
 import '../style.css';
 import Chicken from '../images/chicken.jpg';
 import Plantain from '../images/plantain.jpeg';
